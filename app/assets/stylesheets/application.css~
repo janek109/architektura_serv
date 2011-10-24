@@ -1,0 +1,45 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+ */
+
+body {
+	background-color:lightblue;
+}
+
+#content {
+	padding: 40px 20px 40px 30px;
+	background-color: white;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-khtml-border-radius: 20px;
+	width: 640px;
+}
+
+.commit {
+	float: right;
+	color: blue;
+}
+
+#control {
+	position: fixed;
+	top: 100px;
+	left: 20px;
+	background-color: #a4bedc;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-khtml-border-radius: 20px;
+	padding: 20px;
+	margin: 0 20px 0 0;
+}
+
+#map_canvas {
+  height: 410px;
+}
+
+#fb {
+	margin: 20px 0 0 0;
+}

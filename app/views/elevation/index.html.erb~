@@ -1,0 +1,23 @@
+<div id="content">
+	<h1><%= @title %></h1>
+	<p style="color:#ccc;">Jan Szewczak</p>
+	<p><a href="http://en.wikipedia.org/wiki/Elevation" target="_blank">Elevation</a></p>
+	<div id="info">
+
+		<p>Coordinates: </p>
+		<p>Point A</p>
+		<p style="color: red;"><%= @lat[0] + " | " + @lng[0]  %></p>
+
+		<p>Point B</p>
+		<p style="color: blue;"><%= @lat[1] + " | " + @lng[1]  %></p>
+	</div>
+
+	<p><img src="http://maps.googleapis.com/maps/api/staticmap
+	?center=<%= @lat[0] + "," + @lng[0] %>&path=color:blue|weight:3|<%= @lat[0] + "," + @lng[0] %>|<%= @lat[1] + "," + @lng[1] %>
+	&zoom=7&size=500x260&maptype=roadmap
+	&markers=color:red%7Ccolor:red%7Clabel:A%7C<%= @lat[0] + "," + @lng[0] %>
+	&markers=color:blue%7Ccolor:blue%7Clabel:B%7C<%= @lat[1] + "," + @lng[1] %>&sensor=false" alt="punkty" /></p>
+	<hr />
+
+	<p><img id="chart_div" style="width:512px; height:200px" src="<%= getElevation @path %>"/></p>
+</div>

@@ -1,0 +1,55 @@
+<div id="content">
+	<% getElevation @path %>
+	<div>
+		<!--<p><img src="<%= getMap @lat,@lng,@zoom,@center,@size  %>" alt="punkty" /></p>-->
+		<div id="map_canvas" ></div>
+		<div id="fb">
+			<a name="fb_share"></a> 
+			<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+		</div>
+		
+		<div id="control">
+			<%= form_tag("/trekking/index", :method => "get") do %>
+				<h3>Punkt A</h3>
+				<table>
+					<tr>
+						<td><%= label_tag(:q, "Szerokosc geograficzna:") %> <!-- +90 do -90 --></td>
+						<td><%= text_field_tag(:lata, params[:lata]) %></td>
+					</tr>
+					<tr>
+						<td><%= label_tag(:q, "Dlugosc geograficzna:") %> <!-- +180 do -180 --></td>
+						<td><%= text_field_tag(:lnga, params[:lnga]) %></td>
+					</tr>
+				</table>
+				<h3>Punkt B</h3>
+				<table>
+					<tr>
+						<td><%= label_tag(:q, "Szerokosc geograficzna::") %></td>
+						<td><%= text_field_tag(:latb, params[:latb]) %></td>
+					</tr>
+					<tr>
+						<td><%= label_tag(:q, "Dlugosc geograficzna:") %></td>
+						<td><%= text_field_tag(:lngb, params[:lngb]) %></td>
+					</tr>
+				</table>
+
+				<p>
+				Zoom: 
+				<select name="zoom">
+					<% for @i in (1..20) %>
+						<% if @i == params[:zoom].to_i %>
+							<option selected><%= @i %></option>
+						<% else %>
+							<option><%= @i %></option>
+						<% end %>
+				<% end %>
+				</select>
+				</p>
+				<p><%= submit_tag("Pokaz trase") %></p>
+			<% end %>
+		</div>
+		<hr />
+
+		<p><img id="chart_div" src="<%= @chartUrl %>"/></p>
+
+	</div>
