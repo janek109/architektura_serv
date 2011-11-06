@@ -1,12 +1,10 @@
 <div id="content">
 	<% getElevation @path %>
 	<div>
-		<!--<p><img src="<%= getMap @lat,@lng,@zoom,@center,@size  %>" alt="punkty" /></p>-->
 		<div id="map_canvas" ></div>
 		<div id="fb">
 			<a name="fb_share"></a> 
 			<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
-			<div class="fb-like" data-href="http://sigma.ug.edu.pl:16071" data-send="true" data-width="450" data-show-faces="true" data-font="arial"></div>
 		</div>
 		
 		<div id="control">
@@ -54,3 +52,12 @@
 		<p><img id="chart_div" src="<%= @chartUrl %>"/></p>
 
 	</div>
+	
+	<div id="mapy">
+		<% for @a in @mapy %>
+			<p><a href="index?<%= @a.url_link %>">
+				<img id="linki_do_map" src="<%= @a.url %>" alt="" />
+			</a></p>
+		<% end %>
+	</div>
+

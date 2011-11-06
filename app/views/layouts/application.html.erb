@@ -31,6 +31,12 @@
 						Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects; 
 						for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
 						<script src="/js/libs/modernizr-2.0.6.min.js"></script>
+						<script>
+							var refreshId = setInterval(function()
+							{
+							     $('#map').fadeOut("slow").fadeIn("slow");
+						     	}, 50000);
+					     	</script>
 
 						<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false">
 						</script>
@@ -39,9 +45,9 @@
 							function initialize(lat,lng,zoom) {
 								latlng = new google.maps.LatLng(lat,lng);
 								var myOptions = {
-zoom: zoom,
-      center: latlng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+									zoom: zoom,
+      									center: latlng,
+      									mapTypeId: google.maps.MapTypeId.ROADMAP
 								};
 								var map = new google.maps.Map(document.getElementById("map_canvas"),
 										myOptions);
@@ -51,35 +57,45 @@ zoom: zoom,
 									    new google.maps.LatLng(<%= @lat[1] %>,<%= @lng[1] %>)
 										    ];
 								var flightPath = new google.maps.Polyline({
-path: flightPlanCoordinates,
-strokeColor: "#FF0000",
-strokeOpacity: 1.0,
-strokeWeight: 2
-});
+									path: flightPlanCoordinates,
+									strokeColor: "#FF0000",
+									strokeOpacity: 1.0,
+									strokeWeight: 2
+								});
 
-flightPath.setMap(map);
+						flightPath.setMap(map);
 
-var shadow = 'http://www.google.com/intl/en_ALL/mapfiles/shadow50.png'
-var aImage = 'http://www.google.com/intl/en_ALL/mapfiles/markerA.png';
-var marker = new google.maps.Marker({
-position: new google.maps.LatLng(<%= @lat[0] %>,<%= @lng[0] %>),
-map: map,
-icon: aImage
-});   
+						var shadow = 'http://www.google.com/intl/en_ALL/mapfiles/shadow50.png'
+						var aImage = 'http://www.google.com/intl/en_ALL/mapfiles/markerA.png';
+						var markerA = new google.maps.Marker({
+							position: new google.maps.LatLng(<%= @lat[0] %>,<%= @lng[0] %>),
+							map: map,
+							icon: aImage,
+							draggable: false,
+							animation: google.maps.Animation.DROP
+						});   
 
-var bImage = 'http://www.google.com/intl/en_ALL/mapfiles/markerB.png';
-var marker = new google.maps.Marker({
-position: new google.maps.LatLng(<%= @lat[1] %>,<%= @lng[1] %>),
-map: map,
-icon: bImage
-});
-}
+						var bImage = 'http://www.google.com/intl/en_ALL/mapfiles/markerB.png';
+						var markerB = new google.maps.Marker({
+							position: new google.maps.LatLng(<%= @lat[1] %>,<%= @lng[1] %>),
+							map: map,
+							icon: bImage,
+							draggable: false,
+							animation: google.maps.Animation.DROP
+						});
+				}
+			google.maps.event.addListener(markerA, 'click', changePlace);
+			google.maps.event.addListener(markerB, 'click', changePlace);
 
-$(document).ready(function() {
-		$("#control form select").change(function() {
-			$('#control form input[type="submit"]').click();
+			function changePlace() {
+				window.location.href = '/';
+			}
+
+			$(document).ready(function() {
+			$("#control form select").change(function() {
+				$('#control form input[type="submit"]').click();
+				});
 			});
-		});
 
 </script>
 

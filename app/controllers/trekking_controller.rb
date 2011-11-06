@@ -32,14 +32,15 @@ class TrekkingController < ApplicationController
 			lng[1] = "-116.83171"
 		end
 		
-		@path = lat[0]+","+lng[0]+"|"+lat[1]+","+lng[1];
+		path = lat[0]+","+lng[0]+"|"+lat[1]+","+lng[1];
+		@path = path;
 		
-		#getElevation path;
+		view_context.getElevation path
 		@lat = lat
 		@lng = lng
 		if params[:zoom].to_s == ''
 			params[:zoom] = 3
-		end	
+		end
 		@zoom = params[:zoom].to_s
 		@title = "Elevation in straight line"
 
@@ -48,6 +49,11 @@ class TrekkingController < ApplicationController
 		size['height'] = 410
 
 		@size = size
+
+		Mapa.create(:url => view_context.getMap(lat,lng,@zoom,$center,size) , :url_link => "&lata="+ lat[0] +"&lnga="+ lng[0] +"&latb="+ lat[1] +"&lngb="+ lng[1] +"&zoom="+ @zoom +"")
+
+		@mapy = Mapa.order("created_at DESC").limit(5)
+		#@mapy = Mapa.limit(5)
 	end
 	
 end

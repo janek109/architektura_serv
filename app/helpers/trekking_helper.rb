@@ -7,6 +7,8 @@ module TrekkingHelper
 	ELEVATION_BASE_URL = 'http://maps.googleapis.com/maps/api/elevation/json'
 	CHART_BASE_URL = 'http://chart.apis.google.com/chart'
 
+	$center
+
 	def getChart(chartData, chartDataScaling="-1000,6000", chartType="lc",chartLabel="",chartSize="640x160",chartColor="orange")
 
 		chart_args = {
@@ -76,7 +78,8 @@ module TrekkingHelper
 			locationArray << resultset['location']
 		end
 
-		@center = response['results'][50]['location']
+		$center = response['results'][50]['location']
+		@center = $center
 
 		@elevationArrayToView = elevationArray
 
@@ -84,7 +87,7 @@ module TrekkingHelper
 	end
 
 	def getMap(lat,lng,zoom,center,size)
-		@mapUrl = 'http://maps.googleapis.com/maps/api/staticmap?center=' + center['lat'].to_s + ',' + center['lng'].to_s + '&path=color:blue|weight:3|' + lat[0] + ',' + lng[0] + '|' + lat[1] + ',' + lng[1] + '&zoom=' + zoom + '&size=' + size['width'].to_s + 'x' + size['height'].to_s + '&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C' + lat[0] + CGI.escape(',') + lng[0] + '&markers=color:blue%7Ccolor:blue%7Clabel:B%7C' + lat[1] + ',' + lng[1] + '&sensor=false';
+		@mapUrl = 'http://maps.googleapis.com/maps/api/staticmap?center=' + center['lat'].to_s + ',' + center['lng'].to_s + '&path=color:red|weight:3|' + lat[0] + ',' + lng[0] + '|' + lat[1] + ',' + lng[1] + '&zoom=' + zoom + '&size=' + size['width'].to_s + 'x' + size['height'].to_s + '&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C' + lat[0] + CGI.escape(',') + lng[0] + '&markers=color:red%7Ccolor:red%7Clabel:B%7C' + lat[1] + ',' + lng[1] + '&sensor=false';
 	end
 
 	def getLenOfRoad
