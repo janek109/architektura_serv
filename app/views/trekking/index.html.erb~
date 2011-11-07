@@ -60,4 +60,8 @@
 			</a></p>
 		<% end %>
 	</div>
+	
+	<foot>
+    <p>Made by Jan Szewczak</p>
+	</foot>
 

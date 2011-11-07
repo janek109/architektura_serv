@@ -50,7 +50,10 @@ class TrekkingController < ApplicationController
 
 		@size = size
 
+		isset = params[:isset]
+		if isset.to_s == 't'
 		Mapa.create(:url => view_context.getMap(lat,lng,@zoom,$center,size) , :url_link => "&lata="+ lat[0] +"&lnga="+ lng[0] +"&latb="+ lat[1] +"&lngb="+ lng[1] +"&zoom="+ @zoom +"")
+		end
 
 		@mapy = Mapa.order("created_at DESC").limit(5)
 		#@mapy = Mapa.limit(5)

@@ -35260,3 +35260,1666 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-06 21:09:55 +0100
 Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:12:40 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 587ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (165.8ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:13:31 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:15:16 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 170ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:27:20 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 168ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (202.1ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:30:44 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 170ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:32:54 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 168ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:39:34 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 12ms
+
+NameError (undefined local variable or method `center' for #<TrekkingController:0xb65e10bc>):
+  app/controllers/trekking_controller.rb:53:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:40:24 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 20ms
+
+NameError (undefined local variable or method `center' for #<TrekkingController:0xb6b6ed54>):
+  app/controllers/trekking_controller.rb:53:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (130.7ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:53:02 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mSQL (535.6ms)[0m  [1mINSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 07 Nov 2011 12:53:05 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 12:53:05 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=36.40979247896102,-117.5528856588779&path=color:red|weight:3|36.578581,-118.291994|36.23998,-116.83171&zoom=3&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C36.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C36.23998,-116.83171&sensor=false"], ["url_link", "&lata=36.578581&lnga=-118.291994&latb=36.23998&lngb=-116.83171&zoom=3"]]
+  [1m[35mMapa Load (125.5ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (407.2ms)
+Completed 200 OK in 4831ms (Views: 2157.6ms | ActiveRecord: 926.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.15 at 2011-11-07 13:53:08 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.15 at 2011-11-07 13:53:08 +0100
+Served asset /elevation.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.15 at 2011-11-07 13:53:08 +0100
+Served asset /style.css - 304 Not Modified (62ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.15 at 2011-11-07 13:53:08 +0100
+Served asset /trekking.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.15 at 2011-11-07 13:53:08 +0100
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.15 at 2011-11-07 13:53:08 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.15 at 2011-11-07 13:53:08 +0100
+Served asset /trekking.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.15 at 2011-11-07 13:53:08 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:54:59 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 167ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:09 +0100
+
+SyntaxError (/home/studinf/jszewczak/temp/architektura_serv/app/controllers/trekking_controller.rb:60: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:09 +0100
+
+SyntaxError (/home/studinf/jszewczak/temp/architektura_serv/app/controllers/trekking_controller.rb:60: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:09 +0100
+
+SyntaxError (/home/studinf/jszewczak/temp/architektura_serv/app/controllers/trekking_controller.rb:60: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:10 +0100
+
+SyntaxError (/home/studinf/jszewczak/temp/architektura_serv/app/controllers/trekking_controller.rb:60: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:23 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 178ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:25 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 64ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:26 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:26 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 67ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.7ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:26 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:44 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 91ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:44 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:45 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:45 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:45 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:45 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:46 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 164ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (45.5ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:47 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:55:47 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 67ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:56:46 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 167ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:56:49 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:56:59 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 177ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:57:01 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:57:01 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:46 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 166ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:47 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:48 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:48 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.1ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:48 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 67ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:48 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 191ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:49 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 68ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:50 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 68ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:50 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:50 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:50 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:57:51 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:58:18 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 96ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:58:18 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:58:18 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=12.0&lnga=12&latb=36.23998&lngb=40&zoom=3&commit=Pokaz+trase" for 153.19.5.89 at 2011-11-07 13:58:19 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"12.0", "lnga"=>"12", "latb"=>"36.23998", "lngb"=>"40", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:58:37 +0100
+  Processing by TrekkingController#index as HTML
+Rendered trekking/index.html.erb within layouts/application (238.8ms)
+Completed 500 Internal Server Error in 253ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    1: <div id="content">
+    2: 	<% getElevation @path %>
+    3: 	<div>
+    4: 		<div id="map_canvas" ></div>
+    5: 		<div id="fb">
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/views/trekking/index.html.erb:2:in `_app_views_trekking_index_html_erb___488620313__618052578'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:59:02 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 169ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 13:59:34 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 178ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:02:05 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 169ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:02:07 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:02:07 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:02:08 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:02:08 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:02:09 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:02:09 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:02:10 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 67ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:02:10 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:07:32 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 170ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:07:39 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:11:22 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (79.9ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (759.7ms)
+Completed 200 OK in 1570ms (Views: 378.3ms | ActiveRecord: 399.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.15 at 2011-11-07 14:11:25 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.15 at 2011-11-07 14:11:25 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.15 at 2011-11-07 14:11:25 +0100
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.15 at 2011-11-07 14:11:25 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.15 at 2011-11-07 14:11:25 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.15 at 2011-11-07 14:11:25 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.15 at 2011-11-07 14:11:25 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.15 at 2011-11-07 14:11:25 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=&lnga=&latb=&lngb=&zoom=3&commit=Pokaz+trase" for 153.19.5.15 at 2011-11-07 14:21:09 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"", "lnga"=>"", "latb"=>"", "lngb"=>"", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 167ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=&lnga=&latb=&lngb=&zoom=3&commit=Pokaz+trase" for 153.19.5.15 at 2011-11-07 14:21:13 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"", "lnga"=>"", "latb"=>"", "lngb"=>"", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=&lnga=&latb=&lngb=&zoom=3&commit=Pokaz+trase" for 153.19.5.15 at 2011-11-07 14:21:16 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"", "lnga"=>"", "latb"=>"", "lngb"=>"", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (45.8ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=&lnga=&latb=&lngb=&zoom=3&commit=Pokaz+trase" for 153.19.5.15 at 2011-11-07 14:21:17 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"", "lnga"=>"", "latb"=>"", "lngb"=>"", "zoom"=>"3", "commit"=>"Pokaz trase"}
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:21:28 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 86ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:21:31 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 69ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (60.4ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:21:32 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 67ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:21:34 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 64ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:21:36 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 64ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:26:09 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 170ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:26:21 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:26:36 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.7ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:26:37 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:26:38 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:28:18 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 167ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.8ms)
+
+
+Started GET "/trekking/index" for 153.19.5.15 at 2011-11-07 14:32:43 +0100
+  Processing by TrekkingController#index as HTML
+Completed 500 Internal Server Error in 167ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/helpers/trekking_helper.rb:81:in `getElevation'
+  app/controllers/trekking_controller.rb:38:in `index'
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/trekking/index" for 89.74.92.28 at 2011-11-07 17:04:12 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (126.8ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (995.6ms)
+Completed 200 OK in 2314ms (Views: 1056.4ms | ActiveRecord: 567.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 89.74.92.28 at 2011-11-07 17:04:15 +0100
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 89.74.92.28 at 2011-11-07 17:04:15 +0100
+Served asset /elevation.css - 200 OK (213ms)
+
+
+Started GET "/assets/style.css?body=1" for 89.74.92.28 at 2011-11-07 17:04:15 +0100
+Served asset /style.css - 200 OK (28ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 89.74.92.28 at 2011-11-07 17:04:15 +0100
+Served asset /jquery.js - 200 OK (154ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 89.74.92.28 at 2011-11-07 17:04:15 +0100
+Served asset /trekking.js - 200 OK (130ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 89.74.92.28 at 2011-11-07 17:04:16 +0100
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 89.74.92.28 at 2011-11-07 17:04:16 +0100
+Served asset /trekking.css - 200 OK (65ms)
+
+
+Started GET "/assets/application.js?body=1" for 89.74.92.28 at 2011-11-07 17:04:16 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=&lnga=&latb=&lngb=&zoom=13&commit=Pokaz+trase" for 89.74.92.28 at 2011-11-07 17:04:38 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"", "lnga"=>"", "latb"=>"", "lngb"=>"", "zoom"=>"13", "commit"=>"Pokaz trase"}
+  [1m[36mMapa Load (80.0ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (1154.2ms)
+Completed 200 OK in 1633ms (Views: 882.3ms | ActiveRecord: 362.8ms)
+
+
+Started GET "/trekking/index?&lata=36.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3" for 89.74.92.28 at 2011-11-07 17:04:40 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"36.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3"}
+  [1m[35mMapa Load (79.9ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (926.9ms)
+Completed 200 OK in 1526ms (Views: 706.6ms | ActiveRecord: 298.6ms)
+
+
+Started GET "/trekking/index?&lata=36.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3" for 89.74.92.28 at 2011-11-07 17:04:41 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"36.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3"}
+  [1m[36mMapa Load (80.0ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (710.3ms)
+Completed 200 OK in 1237ms (Views: 455.7ms | ActiveRecord: 392.9ms)
+
+
+Started GET "/trekking/index?&lata=36.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3" for 89.74.92.28 at 2011-11-07 17:04:43 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"36.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3"}
+  [1m[35mMapa Load (80.1ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (874.6ms)
+Completed 200 OK in 1373ms (Views: 582.3ms | ActiveRecord: 372.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=36.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3&commit=Pokaz+trase" for 89.74.92.28 at 2011-11-07 17:04:54 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"36.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3", "commit"=>"Pokaz trase"}
+  [1m[36mMapa Load (83.6ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (647.1ms)
+Completed 200 OK in 1166ms (Views: 363.8ms | ActiveRecord: 331.7ms)
+
+
+Started GET "/trekking/index" for 94.78.183.160 at 2011-11-07 18:56:02 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (123.3ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1197.9ms)
+Completed 200 OK in 2149ms (Views: 825.8ms | ActiveRecord: 639.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 94.78.183.160 at 2011-11-07 18:56:05 +0100
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/style.css?body=1" for 94.78.183.160 at 2011-11-07 18:56:05 +0100
+Served asset /style.css - 200 OK (23ms)
+
+
+Started GET "/assets/application.js?body=1" for 94.78.183.160 at 2011-11-07 18:56:05 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 94.78.183.160 at 2011-11-07 18:56:05 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 94.78.183.160 at 2011-11-07 18:56:05 +0100
+Served asset /trekking.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.78.183.160 at 2011-11-07 18:56:05 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 94.78.183.160 at 2011-11-07 18:56:05 +0100
+Served asset /trekking.js - 200 OK (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 94.78.183.160 at 2011-11-07 18:56:05 +0100
+Served asset /elevation.css - 200 OK (0ms)
+
+
+Started GET "/trekking/index" for 153.19.193.87 at 2011-11-07 19:44:54 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (79.8ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (1059.0ms)
+Completed 200 OK in 1765ms (Views: 731.3ms | ActiveRecord: 525.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 19:44:56 +0100
+Served asset /application.css - 304 Not Modified (42ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 19:44:56 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 19:44:56 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 19:44:56 +0100
+Served asset /style.css - 304 Not Modified (142ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 19:44:57 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 19:44:57 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 19:44:57 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 19:44:57 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=16.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3" for 153.19.193.87 at 2011-11-07 19:45:01 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"16.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3"}
+  [1m[35mMapa Load (79.9ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1065.9ms)
+Completed 200 OK in 1853ms (Views: 671.2ms | ActiveRecord: 438.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 19:45:04 +0100
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 19:45:04 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 19:45:04 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 19:45:04 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 19:45:04 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 19:45:04 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 19:45:04 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 19:45:04 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 19:45:10 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3", "commit"=>"Pokaz trase"}
+  [1m[36mMapa Load (79.7ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (968.9ms)
+Completed 200 OK in 1621ms (Views: 617.2ms | ActiveRecord: 395.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 19:45:12 +0100
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 19:45:12 +0100
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 19:45:12 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 19:45:12 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 19:45:12 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 19:45:12 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 19:45:12 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 19:45:12 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 19:49:15 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3", "commit"=>"Pokaz trase"}
+  [1m[35mMapa Load (80.0ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (910.7ms)
+Completed 200 OK in 1548ms (Views: 450.1ms | ActiveRecord: 510.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:17 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:17 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:17 +0100
+Served asset /style.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:17 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:17 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:17 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:17 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:17 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3&isset=t&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 19:49:19 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3", "isset"=>"t", "commit"=>"Pokaz trase"}
+  [1m[36mSQL (85.5ms)[0m  [1mINSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 07 Nov 2011 18:49:19 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 18:49:19 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=27.02096391415542,-116.2257263090295&path=color:red|weight:3|17.578581,-118.291994|36.23998,-113.83171&zoom=3&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C17.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C36.23998,-113.83171&sensor=false"], ["url_link", "&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3"]]
+  [1m[35mMapa Load (80.0ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (710.2ms)
+Completed 200 OK in 1498ms (Views: 652.8ms | ActiveRecord: 442.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:20 +0100
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:21 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:21 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:21 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:21 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:21 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:21 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:21 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=36.578581&lnga=-118.291994&latb=36.23998&lngb=-116.83171&zoom=3" for 153.19.193.87 at 2011-11-07 19:49:24 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"36.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-116.83171", "zoom"=>"3"}
+  [1m[36mMapa Load (80.3ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (843.4ms)
+Completed 200 OK in 1557ms (Views: 489.2ms | ActiveRecord: 436.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:25 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:25 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:25 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:25 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:25 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:25 +0100
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:25 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:25 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3" for 153.19.193.87 at 2011-11-07 19:49:28 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3"}
+  [1m[35mMapa Load (80.5ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (838.4ms)
+Completed 200 OK in 1029ms (Views: 540.8ms | ActiveRecord: 315.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:31 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:31 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:31 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:31 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 19:49:31 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:31 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:31 +0100
+Served asset /application.js - 304 Not Modified (0ms)
