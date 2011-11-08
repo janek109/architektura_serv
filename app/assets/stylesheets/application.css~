@@ -34,12 +34,12 @@ body {
 	-khtml-border-radius: 20px;
 	padding: 20px;
 	margin: 0 20px 0 0;
-	width: 350px;
+	width: 320px;
 }
 
 #help {
 	position: fixed;
-	top: 360px;
+	top: 400px;
 	left: 20px;
 	background-color: #a4bedc;
 	-moz-border-radius: 20px;

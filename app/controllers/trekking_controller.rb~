@@ -17,11 +17,13 @@ class TrekkingController < ApplicationController
 		lng[0] = params[:lnga];
 		lng[1] = params[:lngb];
 
+		#&lata=7.578581&lnga=-118.291994&latb=10.23998&lngb=-13.83171&zoom=2
+
 		if lat[0].to_i > 90 || lat[0].to_i < -90 || lat[0].to_s == ''
-			lat[0] = "36.578581"
+			lat[0] = "7.578581"
 		end
 	       	if lat[1].to_i > 90 || lat[1].to_i < -90 || lat[1].to_s == ''
-			lat[1] = "36.23998"
+			lat[1] = "10.23998"
 		end
 
 		if lng[0].to_i > 180 || lng[0].to_i < -180 || lng[0].to_s == ''
@@ -29,7 +31,7 @@ class TrekkingController < ApplicationController
 		end
 
 		if lng[1].to_i > 180 || lng[1].to_i < -180 || lng[1].to_s == ''
-			lng[1] = "-116.83171"
+			lng[1] = "13.83171"
 		end
 		
 		path = lat[0]+","+lng[0]+"|"+lat[1]+","+lng[1];
@@ -39,7 +41,7 @@ class TrekkingController < ApplicationController
 		@lat = lat
 		@lng = lng
 		if params[:zoom].to_s == ''
-			params[:zoom] = 3
+			params[:zoom] = 2
 		end
 		@zoom = params[:zoom].to_s
 		@title = "Elevation in straight line"
