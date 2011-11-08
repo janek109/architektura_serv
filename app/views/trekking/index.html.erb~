@@ -44,8 +44,13 @@
 				<% end %>
 				</select>
 				</p>
+				<%= hidden_field_tag(:isset, 't') %>
 				<p><%= submit_tag("Pokaz trase") %></p>
 			<% end %>
+		</div>
+		<div id="help">
+			<p>Aplikacjia oferuje mozliwosc pokazywania ulozenia terenu w lini prostej.</p>
+			<p>Wystarczy podac dwa punkty ktorym okreslamy dlugosc i szerokosc geograficzna.</p>
 		</div>
 		<hr />
 

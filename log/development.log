@@ -36923,3 +36923,1961 @@ Served asset /trekking.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 19:49:31 +0100
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 153.19.193.87 at 2011-11-07 19:51:31 +0100
+Served asset /rails.png - 200 OK (50ms)
+
+
+Started GET "/elevation/index" for 153.19.193.87 at 2011-11-07 19:51:43 +0100
+  Processing by ElevationController#index as HTML
+Rendered elevation/index.html.erb within layouts/application (390.4ms)
+Completed 200 OK in 499ms (Views: 498.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 19:51:44 +0100
+Served asset /application.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 19:51:44 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 19:51:44 +0100
+Served asset /style.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 19:51:44 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 19:51:44 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 19:51:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 19:51:44 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 19:51:44 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.193.87 at 2011-11-07 19:51:54 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (79.7ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (1031.9ms)
+Completed 200 OK in 1365ms (Views: 488.6ms | ActiveRecord: 589.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 19:51:56 +0100
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 19:51:56 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 19:51:56 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 19:51:56 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 19:51:56 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 19:51:56 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 19:51:56 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 19:51:56 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 83.25.157.67 at 2011-11-07 19:55:00 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (79.8ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (862.8ms)
+Completed 200 OK in 1517ms (Views: 438.0ms | ActiveRecord: 518.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 83.25.157.67 at 2011-11-07 19:55:02 +0100
+Served asset /application.css - 200 OK (156ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 83.25.157.67 at 2011-11-07 19:55:02 +0100
+Served asset /elevation.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 83.25.157.67 at 2011-11-07 19:55:02 +0100
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 83.25.157.67 at 2011-11-07 19:55:02 +0100
+Served asset /trekking.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 83.25.157.67 at 2011-11-07 19:55:02 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 83.25.157.67 at 2011-11-07 19:55:02 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 83.25.157.67 at 2011-11-07 19:55:02 +0100
+Served asset /trekking.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 83.25.157.67 at 2011-11-07 19:55:02 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/trekking/index" for 81.190.112.254 at 2011-11-07 20:01:57 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (57.0ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (510.0ms)
+Completed 200 OK in 1518ms (Views: 446.0ms | ActiveRecord: 377.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 81.190.112.254 at 2011-11-07 20:01:59 +0100
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 81.190.112.254 at 2011-11-07 20:01:59 +0100
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 81.190.112.254 at 2011-11-07 20:01:59 +0100
+Served asset /trekking.css - 200 OK (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 81.190.112.254 at 2011-11-07 20:01:59 +0100
+Served asset /elevation.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 81.190.112.254 at 2011-11-07 20:01:59 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 81.190.112.254 at 2011-11-07 20:02:01 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 81.190.112.254 at 2011-11-07 20:02:01 +0100
+Served asset /trekking.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 81.190.112.254 at 2011-11-07 20:02:01 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/trekking/index" for 193.107.212.47 at 2011-11-07 20:04:19 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (119.7ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (699.7ms)
+Completed 200 OK in 1322ms (Views: 147.5ms | ActiveRecord: 568.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 193.107.212.47 at 2011-11-07 20:04:20 +0100
+Served asset /application.css - 200 OK (38ms)
+
+
+Started GET "/assets/style.css?body=1" for 193.107.212.47 at 2011-11-07 20:04:20 +0100
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 193.107.212.47 at 2011-11-07 20:04:20 +0100
+Served asset /elevation.css - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 193.107.212.47 at 2011-11-07 20:04:20 +0100
+Served asset /trekking.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 193.107.212.47 at 2011-11-07 20:04:20 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 193.107.212.47 at 2011-11-07 20:04:20 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 193.107.212.47 at 2011-11-07 20:04:20 +0100
+Served asset /trekking.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 193.107.212.47 at 2011-11-07 20:04:20 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/trekking/index" for 193.107.212.47 at 2011-11-07 20:04:39 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (82.9ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (632.2ms)
+Completed 200 OK in 1124ms (Views: 354.9ms | ActiveRecord: 321.3ms)
+
+
+Started GET "/trekking/index?&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3" for 193.107.212.47 at 2011-11-07 20:04:51 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3"}
+  [1m[35mMapa Load (246.9ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1199.0ms)
+Completed 200 OK in 2060ms (Views: 621.9ms | ActiveRecord: 585.6ms)
+
+
+Started GET "/trekking/index?&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3" for 193.107.212.47 at 2011-11-07 20:04:54 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3"}
+  [1m[36mMapa Load (119.8ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (1109.5ms)
+Completed 200 OK in 1845ms (Views: 598.6ms | ActiveRecord: 635.5ms)
+
+
+Started GET "/trekking/index?&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-113.83171&zoom=3" for 153.19.193.87 at 2011-11-07 20:05:59 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-113.83171", "zoom"=>"3"}
+  [1m[35mMapa Load (79.9ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1058.4ms)
+Completed 200 OK in 1896ms (Views: 761.1ms | ActiveRecord: 607.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:01 +0100
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:01 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:01 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:01 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:01 +0100
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:01 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:01 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:01 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=3&isset=t&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 20:06:06 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-13.83171", "zoom"=>"3", "isset"=>"t", "commit"=>"Pokaz trase"}
+  [1m[36mSQL (87.0ms)[0m  [1mINSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 07 Nov 2011 19:06:07 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 19:06:07 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=39.60361628116026,-71.63055412834952&path=color:red|weight:3|17.578581,-118.291994|36.23998,-13.83171&zoom=3&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C17.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C36.23998,-13.83171&sensor=false"], ["url_link", "&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=3"]]
+  [1m[35mMapa Load (139.8ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1062.7ms)
+Completed 200 OK in 2321ms (Views: 984.3ms | ActiveRecord: 524.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:09 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:09 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:09 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:09 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:09 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:09 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:09 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:09 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=4&isset=t&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 20:06:13 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-13.83171", "zoom"=>"4", "isset"=>"t", "commit"=>"Pokaz trase"}
+  [1m[36mSQL (335.6ms)[0m  [1mINSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 07 Nov 2011 19:06:14 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 19:06:14 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=39.60361628116026,-71.63055412834952&path=color:red|weight:3|17.578581,-118.291994|36.23998,-13.83171&zoom=4&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C17.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C36.23998,-13.83171&sensor=false"], ["url_link", "&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=4"]]
+  [1m[35mMapa Load (79.7ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1066.4ms)
+Completed 200 OK in 2359ms (Views: 918.4ms | ActiveRecord: 776.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:15 +0100
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:15 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:15 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:15 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:15 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:15 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:15 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:15 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=2&isset=t&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 20:06:21 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-13.83171", "zoom"=>"2", "isset"=>"t", "commit"=>"Pokaz trase"}
+  [1m[36mSQL (233.3ms)[0m  [1mINSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 07 Nov 2011 19:06:21 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 19:06:21 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=39.60361628116026,-71.63055412834952&path=color:red|weight:3|17.578581,-118.291994|36.23998,-13.83171&zoom=2&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C17.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C36.23998,-13.83171&sensor=false"], ["url_link", "&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=2"]]
+  [1m[35mMapa Load (79.8ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (669.0ms)
+Completed 200 OK in 1911ms (Views: 592.0ms | ActiveRecord: 671.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:23 +0100
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:23 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:23 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:23 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:06:23 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:23 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:06:23 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=7.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=2&isset=t&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 20:07:15 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-13.83171", "zoom"=>"2", "isset"=>"t", "commit"=>"Pokaz trase"}
+  [1m[36mSQL (122.3ms)[0m  [1mINSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 07 Nov 2011 19:07:16 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 19:07:16 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=33.23979111975092,-73.07028970051276&path=color:red|weight:3|7.578581,-118.291994|36.23998,-13.83171&zoom=2&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C7.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C36.23998,-13.83171&sensor=false"], ["url_link", "&lata=7.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=2"]]
+  [1m[35mMapa Load (79.9ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1030.2ms)
+Completed 200 OK in 2466ms (Views: 971.7ms | ActiveRecord: 678.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:18 +0100
+Served asset /application.css - 304 Not Modified (46ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:18 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:18 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:18 +0100
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:18 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:18 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:18 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 81.190.112.254 at 2011-11-07 20:07:23 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (119.7ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (1213.3ms)
+Completed 200 OK in 1809ms (Views: 741.3ms | ActiveRecord: 518.5ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=7.578581&lnga=-118.291994&latb=126.23998&lngb=-13.83171&zoom=2&isset=t&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 20:07:27 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"126.23998", "lngb"=>"-13.83171", "zoom"=>"2", "isset"=>"t", "commit"=>"Pokaz trase"}
+  [1m[35mSQL (93.0ms)[0m  INSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)  [["created_at", Mon, 07 Nov 2011 19:07:27 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 19:07:27 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=33.23979111975092,-73.07028970051276&path=color:red|weight:3|7.578581,-118.291994|36.23998,-13.83171&zoom=2&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C7.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C36.23998,-13.83171&sensor=false"], ["url_link", "&lata=7.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=2"]]
+  [1m[36mMapa Load (44.2ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (647.1ms)
+Completed 200 OK in 1427ms (Views: 627.9ms | ActiveRecord: 466.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:28 +0100
+Served asset /application.css - 304 Not Modified (79ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:28 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:28 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:28 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:28 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:28 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:28 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:28 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=17.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=2" for 81.190.112.254 at 2011-11-07 20:07:32 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"17.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-13.83171", "zoom"=>"2"}
+  [1m[35mMapa Load (79.8ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1105.9ms)
+Completed 200 OK in 1638ms (Views: 841.9ms | ActiveRecord: 343.2ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=2&isset=t&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 20:07:42 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"2", "isset"=>"t", "commit"=>"Pokaz trase"}
+  [1m[36mSQL (237.5ms)[0m  [1mINSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 07 Nov 2011 19:07:43 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 19:07:43 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=49.65930255926524,-108.3119524797915&path=color:red|weight:3|7.578581,-118.291994|80.23998,-13.83171&zoom=2&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C7.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C80.23998,-13.83171&sensor=false"], ["url_link", "&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=2"]]
+  [1m[35mMapa Load (81.4ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (829.8ms)
+Completed 200 OK in 2305ms (Views: 711.9ms | ActiveRecord: 631.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:44 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:44 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:44 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:44 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:44 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:44 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:44 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=1&isset=t&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 20:07:48 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"1", "isset"=>"t", "commit"=>"Pokaz trase"}
+  [1m[36mSQL (104.8ms)[0m  [1mINSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 07 Nov 2011 19:07:48 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 19:07:48 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=49.65930255926524,-108.3119524797915&path=color:red|weight:3|7.578581,-118.291994|80.23998,-13.83171&zoom=1&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C7.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C80.23998,-13.83171&sensor=false"], ["url_link", "&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=1"]]
+  [1m[35mMapa Load (119.8ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (554.9ms)
+Completed 200 OK in 1410ms (Views: 399.9ms | ActiveRecord: 699.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:50 +0100
+Served asset /application.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:50 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:50 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:50 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:50 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:50 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:50 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:50 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=1" for 153.19.193.87 at 2011-11-07 20:07:57 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"1"}
+  [1m[36mMapa Load (158.6ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (919.6ms)
+Completed 200 OK in 1637ms (Views: 420.4ms | ActiveRecord: 551.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:59 +0100
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:59 +0100
+Served asset /style.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:59 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:07:59 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:59 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:59 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:59 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:07:59 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=1" for 153.19.193.87 at 2011-11-07 20:08:02 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"1"}
+  [1m[35mMapa Load (237.1ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1061.0ms)
+Completed 200 OK in 1561ms (Views: 394.0ms | ActiveRecord: 710.8ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=1" for 153.19.193.87 at 2011-11-07 20:08:03 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"1"}
+  [1m[36mMapa Load (43.1ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (634.1ms)
+Completed 200 OK in 1298ms (Views: 577.3ms | ActiveRecord: 213.3ms)
+
+
+Started GET "/trekking/index" for 89.77.211.202 at 2011-11-07 20:08:05 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (123.2ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1105.0ms)
+Completed 200 OK in 1585ms (Views: 813.4ms | ActiveRecord: 374.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:07 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:07 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:07 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:07 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:07 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:07 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:07 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 89.77.211.202 at 2011-11-07 20:08:07 +0100
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 89.77.211.202 at 2011-11-07 20:08:07 +0100
+Served asset /style.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:07 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:07 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 89.77.211.202 at 2011-11-07 20:08:07 +0100
+Served asset /trekking.css - 200 OK (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 89.77.211.202 at 2011-11-07 20:08:07 +0100
+Served asset /elevation.css - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:07 +0100
+Served asset /trekking.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:07 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=1" for 153.19.193.87 at 2011-11-07 20:08:10 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"1"}
+  [1m[36mMapa Load (56.0ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (699.1ms)
+Completed 200 OK in 1264ms (Views: 440.3ms | ActiveRecord: 267.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:11 +0100
+Served asset /application.css - 304 Not Modified (39ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:12 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:12 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:12 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:12 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:12 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:12 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:12 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=1" for 153.19.193.87 at 2011-11-07 20:08:15 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"1"}
+  [1m[35mMapa Load (41.8ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1311.7ms)
+Completed 200 OK in 1665ms (Views: 817.2ms | ActiveRecord: 503.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:18 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:18 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:18 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:18 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:18 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:18 +0100
+Served asset /trekking.js - 304 Not Modified (47ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:18 +0100
+Served asset /application.js - 304 Not Modified (40ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=2" for 89.77.211.202 at 2011-11-07 20:08:29 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"2"}
+  [1m[36mMapa Load (48.7ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (890.6ms)
+Completed 200 OK in 1530ms (Views: 462.9ms | ActiveRecord: 474.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:31 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:31 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:31 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=2" for 89.77.211.202 at 2011-11-07 20:08:39 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-13.83171", "zoom"=>"2"}
+  [1m[35mMapa Load (79.8ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (992.5ms)
+Completed 200 OK in 1510ms (Views: 614.8ms | ActiveRecord: 444.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:41 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:41 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:41 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 89.77.211.202 at 2011-11-07 20:08:41 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=1" for 153.19.193.87 at 2011-11-07 20:08:54 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"1"}
+  [1m[36mMapa Load (117.8ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (809.2ms)
+Completed 200 OK in 1453ms (Views: 475.5ms | ActiveRecord: 342.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:55 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:56 +0100
+Served asset /style.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:56 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:08:56 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:56 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:56 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:56 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:08:56 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=7.578581&lnga=-118.291994&latb=10.23998&lngb=-13.83171&zoom=1&isset=t&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 20:09:10 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"10.23998", "lngb"=>"-13.83171", "zoom"=>"1", "isset"=>"t", "commit"=>"Pokaz trase"}
+  [1m[35mSQL (122.4ms)[0m  INSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)  [["created_at", Mon, 07 Nov 2011 19:09:11 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 19:09:11 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=14.37115291145736,-65.79583407046916&path=color:red|weight:3|7.578581,-118.291994|10.23998,-13.83171&zoom=1&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C7.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C10.23998,-13.83171&sensor=false"], ["url_link", "&lata=7.578581&lnga=-118.291994&latb=10.23998&lngb=-13.83171&zoom=1"]]
+  [1m[36mMapa Load (159.5ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (909.7ms)
+Completed 200 OK in 2325ms (Views: 744.8ms | ActiveRecord: 634.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:09:12 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:09:12 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:09:12 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:09:12 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:09:12 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:09:12 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:09:12 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:09:12 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?utf8=%E2%9C%93&lata=7.578581&lnga=-118.291994&latb=10.23998&lngb=-13.83171&zoom=2&isset=t&commit=Pokaz+trase" for 153.19.193.87 at 2011-11-07 20:09:17 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"utf8"=>"✓", "lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"10.23998", "lngb"=>"-13.83171", "zoom"=>"2", "isset"=>"t", "commit"=>"Pokaz trase"}
+  [1m[35mSQL (122.3ms)[0m  INSERT INTO "mapas" ("created_at", "updated_at", "url", "url_link") VALUES (?, ?, ?, ?)  [["created_at", Mon, 07 Nov 2011 19:09:18 UTC +00:00], ["updated_at", Mon, 07 Nov 2011 19:09:18 UTC +00:00], ["url", "http://maps.googleapis.com/maps/api/staticmap?center=14.37115291145736,-65.79583407046916&path=color:red|weight:3|7.578581,-118.291994|10.23998,-13.83171&zoom=2&size=640x410&maptype=roadmap&markers=color:red%7Ccolor:red%7Clabel:A%7C7.578581%2C-118.291994&markers=color:red%7Ccolor:red%7Clabel:B%7C10.23998,-13.83171&sensor=false"], ["url_link", "&lata=7.578581&lnga=-118.291994&latb=10.23998&lngb=-13.83171&zoom=2"]]
+  [1m[36mMapa Load (119.9ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (738.1ms)
+Completed 200 OK in 1926ms (Views: 550.1ms | ActiveRecord: 653.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:09:19 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:09:19 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:09:19 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:09:19 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:09:19 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:09:19 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:09:19 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:09:19 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=10.23998&lngb=-13.83171&zoom=2" for 153.19.193.87 at 2011-11-07 20:13:34 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"10.23998", "lngb"=>"-13.83171", "zoom"=>"2"}
+  [1m[35mMapa Load (84.6ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1062.1ms)
+Completed 200 OK in 1888ms (Views: 536.1ms | ActiveRecord: 581.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.87 at 2011-11-07 20:13:36 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.87 at 2011-11-07 20:13:36 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.87 at 2011-11-07 20:13:36 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.87 at 2011-11-07 20:13:36 +0100
+Served asset /style.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.87 at 2011-11-07 20:13:36 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.87 at 2011-11-07 20:13:36 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.87 at 2011-11-07 20:13:36 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.87 at 2011-11-07 20:13:36 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.193.36 at 2011-11-07 20:22:29 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (119.9ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (1009.3ms)
+Completed 200 OK in 1533ms (Views: 510.7ms | ActiveRecord: 514.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.36 at 2011-11-07 20:22:31 +0100
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.36 at 2011-11-07 20:22:31 +0100
+Served asset /elevation.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.36 at 2011-11-07 20:22:31 +0100
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.36 at 2011-11-07 20:22:31 +0100
+Served asset /trekking.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.36 at 2011-11-07 20:22:31 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.36 at 2011-11-07 20:22:31 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.36 at 2011-11-07 20:22:31 +0100
+Served asset /trekking.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.36 at 2011-11-07 20:22:31 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/trekking/index" for 153.19.193.36 at 2011-11-07 20:22:45 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (67.3ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (812.5ms)
+Completed 200 OK in 1274ms (Views: 476.1ms | ActiveRecord: 345.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.193.36 at 2011-11-07 20:22:47 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.193.36 at 2011-11-07 20:22:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.193.36 at 2011-11-07 20:22:47 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.193.36 at 2011-11-07 20:22:47 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.193.36 at 2011-11-07 20:22:47 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.193.36 at 2011-11-07 20:22:47 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.193.36 at 2011-11-07 20:22:47 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.193.36 at 2011-11-07 20:22:47 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 83.25.237.93 at 2011-11-07 20:35:41 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (80.1ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (1146.2ms)
+Completed 200 OK in 1804ms (Views: 687.5ms | ActiveRecord: 475.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 83.25.237.93 at 2011-11-07 20:35:43 +0100
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 83.25.237.93 at 2011-11-07 20:35:43 +0100
+Served asset /elevation.css - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 83.25.237.93 at 2011-11-07 20:35:43 +0100
+Served asset /trekking.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 83.25.237.93 at 2011-11-07 20:35:43 +0100
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 83.25.237.93 at 2011-11-07 20:35:43 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 83.25.237.93 at 2011-11-07 20:35:43 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 83.25.237.93 at 2011-11-07 20:35:43 +0100
+Served asset /trekking.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 83.25.237.93 at 2011-11-07 20:35:43 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=1" for 83.25.237.93 at 2011-11-07 20:36:05 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"1"}
+  [1m[35mMapa Load (60.2ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1409.3ms)
+Completed 200 OK in 2089ms (Views: 1117.8ms | ActiveRecord: 300.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:07 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:07 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:07 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:07 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:07 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:07 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:07 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=36.23998&lngb=-13.83171&zoom=2" for 83.25.237.93 at 2011-11-07 20:36:15 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"36.23998", "lngb"=>"-13.83171", "zoom"=>"2"}
+  [1m[36mMapa Load (21.0ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (645.8ms)
+Completed 200 OK in 1159ms (Views: 433.8ms | ActiveRecord: 220.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:17 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:17 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:17 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:17 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:17 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:17 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:17 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:17 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=80.23998&lngb=-13.83171&zoom=2" for 83.25.237.93 at 2011-11-07 20:36:26 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"80.23998", "lngb"=>"-13.83171", "zoom"=>"2"}
+  [1m[35mMapa Load (176.5ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (879.2ms)
+Completed 200 OK in 1664ms (Views: 457.5ms | ActiveRecord: 465.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:28 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:28 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:28 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 83.25.237.93 at 2011-11-07 20:36:28 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:28 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:28 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:28 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 83.25.237.93 at 2011-11-07 20:36:28 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 78.31.158.184 at 2011-11-07 20:55:12 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (48.3ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (779.3ms)
+Completed 200 OK in 1425ms (Views: 428.1ms | ActiveRecord: 367.4ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 78.31.158.184 at 2011-11-07 20:55:14 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 78.31.158.184 at 2011-11-07 20:55:14 +0100
+Served asset /application.css - 304 Not Modified (47ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 78.31.158.184 at 2011-11-07 20:55:14 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 78.31.158.184 at 2011-11-07 20:55:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 78.31.158.184 at 2011-11-07 20:55:14 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 78.31.158.184 at 2011-11-07 20:55:14 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 78.31.158.184 at 2011-11-07 20:55:14 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 78.31.158.184 at 2011-11-07 20:55:14 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 195.182.23.6 at 2011-11-08 09:13:45 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (129.7ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1030.2ms)
+Completed 200 OK in 2180ms (Views: 688.3ms | ActiveRecord: 569.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 195.182.23.6 at 2011-11-08 09:13:48 +0100
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 195.182.23.6 at 2011-11-08 09:13:48 +0100
+Served asset /elevation.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 195.182.23.6 at 2011-11-08 09:13:48 +0100
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 195.182.23.6 at 2011-11-08 09:13:48 +0100
+Served asset /trekking.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 195.182.23.6 at 2011-11-08 09:13:48 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 195.182.23.6 at 2011-11-08 09:13:48 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 195.182.23.6 at 2011-11-08 09:13:48 +0100
+Served asset /trekking.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 195.182.23.6 at 2011-11-08 09:13:48 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=10.23998&lngb=-13.83171&zoom=2" for 153.19.143.102 at 2011-11-08 10:22:12 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"10.23998", "lngb"=>"-13.83171", "zoom"=>"2"}
+  [1m[36mMapa Load (79.8ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (2176.1ms)
+Completed 200 OK in 3174ms (Views: 821.2ms | ActiveRecord: 1517.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.143.102 at 2011-11-08 10:22:16 +0100
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.143.102 at 2011-11-08 10:22:17 +0100
+Served asset /elevation.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.143.102 at 2011-11-08 10:22:17 +0100
+Served asset /style.css - 200 OK (3ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.143.102 at 2011-11-08 10:22:17 +0100
+Served asset /trekking.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.143.102 at 2011-11-08 10:22:17 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.143.102 at 2011-11-08 10:22:17 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.143.102 at 2011-11-08 10:22:17 +0100
+Served asset /trekking.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.143.102 at 2011-11-08 10:22:17 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 10:37:58 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (79.9ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (1165.1ms)
+Completed 200 OK in 2170ms (Views: 722.4ms | ActiveRecord: 533.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 10:38:01 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 10:38:01 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 10:38:01 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 10:38:01 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 10:38:01 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 10:38:01 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 10:38:01 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 10:38:01 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:06:57 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (83.1ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (1083.4ms)
+Completed 200 OK in 1981ms (Views: 672.0ms | ActiveRecord: 524.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:06:59 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:06:59 +0100
+Served asset /style.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:06:59 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:06:59 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:06:59 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:06:59 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:06:59 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:06:59 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 83.25.237.93 at 2011-11-08 12:09:47 +0100
+Served asset /rails.png - 200 OK (8ms)
+
+
+Started GET "/fortunes" for 83.25.237.93 at 2011-11-08 12:09:55 +0100
+
+ActionController::RoutingError (No route matches [GET] "/fortunes"):
+  
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/trekking" for 83.25.237.93 at 2011-11-08 12:10:03 +0100
+
+ActionController::RoutingError (No route matches [GET] "/trekking"):
+  
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/trekking/index" for 89.73.58.212 at 2011-11-08 12:45:49 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (93.2ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (937.4ms)
+Completed 200 OK in 1758ms (Views: 568.7ms | ActiveRecord: 495.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 89.73.58.212 at 2011-11-08 12:45:51 +0100
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/style.css?body=1" for 89.73.58.212 at 2011-11-08 12:45:51 +0100
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 89.73.58.212 at 2011-11-08 12:45:51 +0100
+Served asset /elevation.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 89.73.58.212 at 2011-11-08 12:45:51 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 89.73.58.212 at 2011-11-08 12:45:51 +0100
+Served asset /trekking.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 89.73.58.212 at 2011-11-08 12:45:51 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 89.73.58.212 at 2011-11-08 12:45:51 +0100
+Served asset /trekking.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 89.73.58.212 at 2011-11-08 12:45:51 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/trekking/" for 89.73.58.212 at 2011-11-08 12:46:10 +0100
+
+ActionController::RoutingError (No route matches [GET] "/trekking"):
+  
+
+Rendered /home/studinf/jszewczak/.gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:54:14 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (79.8ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (853.3ms)
+Completed 200 OK in 1474ms (Views: 391.2ms | ActiveRecord: 513.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:54:16 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:54:16 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:54:16 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:54:16 +0100
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:54:16 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:54:16 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:54:16 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:54:16 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:55:50 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (79.9ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (927.5ms)
+Compiled application.css  (3ms)  (pid 2517)
+Completed 200 OK in 1781ms (Views: 917.1ms | ActiveRecord: 414.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:55:52 +0100
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:55:52 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:55:52 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:55:52 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:55:52 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:55:52 +0100
+Served asset /style.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:55:52 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:55:52 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:56:01 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (79.8ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (796.1ms)
+Compiled application.css  (3ms)  (pid 2517)
+Completed 200 OK in 1384ms (Views: 666.1ms | ActiveRecord: 356.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:03 +0100
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:03 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:03 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:03 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:03 +0100
+Served asset /style.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:03 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:03 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:56:13 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (79.8ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (821.6ms)
+Compiled application.css  (2ms)  (pid 2517)
+Completed 200 OK in 1737ms (Views: 682.9ms | ActiveRecord: 356.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:15 +0100
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:15 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:15 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:15 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:15 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:15 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:15 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:15 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:56:21 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (79.8ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (662.0ms)
+Compiled application.css  (3ms)  (pid 2517)
+Completed 200 OK in 1245ms (Views: 460.5ms | ActiveRecord: 355.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:23 +0100
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:23 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:23 +0100
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:23 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:23 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:23 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:23 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:56:41 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (80.1ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (681.9ms)
+Compiled application.css  (2ms)  (pid 2517)
+Completed 200 OK in 1333ms (Views: 469.5ms | ActiveRecord: 356.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:43 +0100
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:43 +0100
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:43 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:43 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:43 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:56:43 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:43 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:56:43 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:56:58 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (79.8ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (787.3ms)
+Compiled application.css  (2ms)  (pid 2517)
+Completed 200 OK in 1467ms (Views: 461.7ms | ActiveRecord: 473.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:00 +0100
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:00 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:00 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:00 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:00 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:00 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:00 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:00 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:57:09 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (79.9ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (852.0ms)
+Compiled application.css  (2ms)  (pid 2517)
+Completed 200 OK in 1690ms (Views: 669.0ms | ActiveRecord: 356.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:11 +0100
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:11 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:11 +0100
+Served asset /style.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:11 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:11 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:11 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:11 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:11 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:57:32 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (197.0ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (811.1ms)
+Compiled application.css  (2ms)  (pid 2517)
+Completed 200 OK in 1510ms (Views: 514.1ms | ActiveRecord: 440.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:33 +0100
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:34 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:34 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:34 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:34 +0100
+Served asset /style.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:34 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:34 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:34 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:57:56 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[35mMapa Load (79.7ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (744.4ms)
+Compiled application.css  (2ms)  (pid 2517)
+Completed 200 OK in 1426ms (Views: 492.8ms | ActiveRecord: 395.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:57 +0100
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:57 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:57 +0100
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:57:57 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:57 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:57 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:57 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:57:57 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index" for 153.19.5.22 at 2011-11-08 12:58:23 +0100
+  Processing by TrekkingController#index as HTML
+  [1m[36mMapa Load (120.5ms)[0m  [1mSELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5[0m
+Rendered trekking/index.html.erb within layouts/application (961.8ms)
+Completed 200 OK in 1365ms (Views: 463.0ms | ActiveRecord: 512.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:58:24 +0100
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:58:24 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:58:24 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:58:24 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:58:24 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:58:24 +0100
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:58:24 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:58:24 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/trekking/index?&lata=7.578581&lnga=-118.291994&latb=10.23998&lngb=-13.83171&zoom=1" for 153.19.5.22 at 2011-11-08 12:58:38 +0100
+  Processing by TrekkingController#index as HTML
+  Parameters: {"lata"=>"7.578581", "lnga"=>"-118.291994", "latb"=>"10.23998", "lngb"=>"-13.83171", "zoom"=>"1"}
+  [1m[35mMapa Load (79.8ms)[0m  SELECT "mapas".* FROM "mapas" ORDER BY created_at DESC LIMIT 5
+Rendered trekking/index.html.erb within layouts/application (811.8ms)
+Completed 200 OK in 1390ms (Views: 490.2ms | ActiveRecord: 330.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 153.19.5.22 at 2011-11-08 12:58:39 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 153.19.5.22 at 2011-11-08 12:58:39 +0100
+Served asset /style.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/trekking.css?body=1" for 153.19.5.22 at 2011-11-08 12:58:39 +0100
+Served asset /trekking.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 153.19.5.22 at 2011-11-08 12:58:39 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/elevation.css?body=1" for 153.19.5.22 at 2011-11-08 12:58:39 +0100
+Served asset /elevation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 153.19.5.22 at 2011-11-08 12:58:39 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/trekking.js?body=1" for 153.19.5.22 at 2011-11-08 12:58:39 +0100
+Served asset /trekking.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 153.19.5.22 at 2011-11-08 12:58:39 +0100
+Served asset /application.js - 304 Not Modified (0ms)

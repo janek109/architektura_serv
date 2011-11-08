@@ -34,6 +34,20 @@ body {
 	-khtml-border-radius: 20px;
 	padding: 20px;
 	margin: 0 20px 0 0;
+	width: 350px;
+}
+
+#help {
+	position: fixed;
+	top: 360px;
+	left: 20px;
+	background-color: #a4bedc;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-khtml-border-radius: 20px;
+	padding: 20px;
+	margin: 0 20px 0 0;
+	width: 320px;
 }
 
 #map_canvas {
@@ -44,7 +58,7 @@ body {
 	margin: 20px 0 0 0;
 }
 
-#mapy {
+	#mapy {
 	float: right;
 	position: fixed;
 	top: 20px;
@@ -57,7 +71,7 @@ body {
 	margin: 0 20px 0 0;
 }
 
-#linki_do_map {
+	#linki_do_map {
 	height: 100px;
 	border: 1px solid blue;
 }
